@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/netwatching/action.docker.merge/compare/v1.1.0...v1.1.1) (2023-11-25)
+
+
+### Bug Fixes
+
+* Registry actor ([11c7047](https://github.com/netwatching/action.docker.merge/commit/11c70473101b8f5afa9c0bdca89f6537baa5c58f))
+
 ## [1.1.0](https://github.com/netwatching/action.docker.merge/compare/v1.0.0...v1.1.0) (2023-11-25)
 
 
