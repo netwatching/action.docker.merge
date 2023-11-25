@@ -3,24 +3,19 @@ description: "Docker merge"
 
 inputs:
   registry:
-    description: "Docker registry to which the images will be pushed."
+    description: "Docker registry"
     required: false
     default: ghcr.io
   name:
-    description: "Name of the Docker image."
+    description: "Docker image name"
     required: true
   registry_username:
-    description: "Username for image registry."
+    description: "Docker registry username"
     required: false
     default: ${{ github.actor }}
-  registry_token:
-    description: "Token for image registry."
-    required: false
-    default: ${{ secrets.GITHUB_TOKEN }}
-  latest:
-    description: "Set to true if this build should be used as the latest image. Defaults to auto. Set to either true, false or auto."
-    required: false
-    default: auto
+  registry_password:
+    description: "Docker registry password"
+    required: true
 
 runs:
   using: composite
@@ -53,7 +48,7 @@ runs:
       with:
         registry: ${{ inputs.registry }}
         username: ${{ inputs.registry_username }}
-        password: ${{ inputs.registry_token }}
+        password: ${{ inputs.registry_password }}
 
     - name: Create manifest list and push
       shell: bash
