@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.8](https://github.com/netwatching/action.docker.merge/compare/v1.1.7...v1.1.8) (2023-11-25)
+
+
+### Bug Fixes
+
+* Add license file ([1d1ec90](https://github.com/netwatching/action.docker.merge/commit/1d1ec90cb1e1b6b384e466b8088c555594dd8e63))
+
 ## [1.1.7](https://github.com/netwatching/action.docker.merge/compare/v1.1.6...v1.1.7) (2023-11-25)
 
 
