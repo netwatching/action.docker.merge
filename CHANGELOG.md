@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/netwatching/action.docker.merge/compare/v1.1.1...v1.1.2) (2023-11-25)
+
+
+### Bug Fixes
+
+* Registry ([5e64b02](https://github.com/netwatching/action.docker.merge/commit/5e64b02d7144c1f71890beb06d2f8717572e1e85))
+
 ## [1.1.1](https://github.com/netwatching/action.docker.merge/compare/v1.1.0...v1.1.1) (2023-11-25)
 
 
