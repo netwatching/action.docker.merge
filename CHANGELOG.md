@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.5](https://github.com/netwatching/action.docker.merge/compare/v1.1.4...v1.1.5) (2023-11-25)
+
+
+### Bug Fixes
+
+* Meta output ([ea32deb](https://github.com/netwatching/action.docker.merge/commit/ea32deb06d194053038492ba40957e681e0923b5))
+
 ## [1.1.4](https://github.com/netwatching/action.docker.merge/compare/v1.1.3...v1.1.4) (2023-11-25)
 
 
