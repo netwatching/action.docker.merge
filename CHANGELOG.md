@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/netwatching/action.docker.merge/compare/v1.0.0...v1.1.0) (2023-11-25)
+
+
+### Features
+
+* Fixed variables, changed inputs ([c78ea5e](https://github.com/netwatching/action.docker.merge/commit/c78ea5ea5a7e5e3471454789cb909c257004cdd8))
+
 ## 1.0.0 (2023-11-25)
 
 
